@@ -1,3 +1,4 @@
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { routing } from './heroes/heroes.routing';
 import { HeroesComponent  } from './heroes/heroes.component';
@@ -9,6 +10,7 @@ import { HttpModule }    from '@angular/http';
 import { AppComponent }  from './app.component';
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
+import './rxjs-extensions';
 
 
 @NgModule({
@@ -23,6 +25,7 @@ import { InMemoryDataService }  from './in-memory-data.service';
     HeroesComponent ,
     HeroDetailComponent,
     DashboardComponent,
+    HeroSearchComponent ,
     AppComponent
   ],
   bootstrap: [ AppComponent ]
