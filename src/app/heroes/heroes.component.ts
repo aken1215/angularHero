@@ -70,7 +70,7 @@ import { Component, OnInit } from '@angular/core';
 			 providers: [HeroService]
 })
 
-export class HeroComponentComponent implements OnInit {
+export class HeroesComponent  implements OnInit {
 
     heroes = HEROES;
 
